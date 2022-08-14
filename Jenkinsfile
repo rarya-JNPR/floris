@@ -10,10 +10,10 @@ pipeline {
              echo "Building this Application"
           }
         }
-       stage("Build") {
+       stage("Testing") {
          
           steps {
-             echo "Building this Application"
+             echo "Testing this Application"
           }
         }
       }
