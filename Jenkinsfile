@@ -1,7 +1,7 @@
 pipeline {
  
     agent any
-    envirinment {
+    environment {
      NEW_VERSION = '1.0'
  }
  parameters {
