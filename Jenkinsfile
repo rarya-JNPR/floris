@@ -20,7 +20,7 @@ pipeline {
        stage("Testing") {
         when {
          expression {
-          params.VERSION == 1.0
+          params.exectest == true
             }
         }
           steps {
