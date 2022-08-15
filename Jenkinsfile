@@ -31,7 +31,7 @@ pipeline {
          
           steps {
              echo "Deploying this Application"
-             echo "Deployed version is ${NEW_VERSION}"
+             echo "Deployed version is ${VERSION}"
           }
         }
       }
